@@ -42,6 +42,7 @@ def insta(random_user):
         requests.post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text={good}')
 
 
+
 def random_words():
     while True:
         ran1 = 'qwertyuiopasdfghjklzxvcbnm'
